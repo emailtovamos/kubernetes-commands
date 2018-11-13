@@ -16,3 +16,7 @@ Commands for kubectl, the command line interface of kubernetes
 - Roll back to a specific version (let's say 2): 
 
   ```kubectl rollout undo deployment <deploymentName> --to-revision=2```
+  
+- Get detailed information about a particular resource e.g. pod named podName: 
+
+  ```kubectl describe pod podName```
