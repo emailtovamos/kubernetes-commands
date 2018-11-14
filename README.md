@@ -20,3 +20,7 @@ Commands for kubectl, the command line interface of kubernetes
 - Get detailed information about a particular resource e.g. pod named podName: 
 
   ```kubectl describe pod podName```
+  
+- Delete everything running. Assuming everything you ran lies in the current folder (e.g. deployment.yaml, replicaset.yaml): 
+
+  ```kubectl delete -f .```
