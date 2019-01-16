@@ -24,3 +24,15 @@ Commands for kubectl, the command line interface of kubernetes
 - Delete everything running. Assuming everything you ran lies in the current folder (e.g. deployment.yaml, replicaset.yaml): 
 
   ```kubectl delete -f .```
+  
+- See all available contexts: 
+
+  ```kubectl config get-contexts```
+  
+- See the current context:
+
+  ```kubectl config current-context```
+  
+- Make docker-for-desktop(e.g.) as the current context:
+
+  ```kubectl config use-context docker-for-desktop```
