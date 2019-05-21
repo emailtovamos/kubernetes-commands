@@ -36,3 +36,6 @@ Commands for kubectl, the command line interface of kubernetes
 - Make docker-for-desktop(e.g.) as the current context:
 
   ```kubectl config use-context docker-for-desktop```
+  
+- Get a list of all cluster related cpu uses: 
+  ```kubectl top```
